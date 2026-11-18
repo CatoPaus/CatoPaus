@@ -1,13 +1,41 @@
 <div align="center">
 
-<img src="./assets/hero-banner.svg" alt="Cato Paus — AI Tooling Architect, Genkit &amp; Bare-Metal Compute" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-banner.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-banner-light.svg" />
+  <img src="./assets/hero-banner-light.svg" alt="Cato Paus — AI Tooling Architect, Genkit &amp; Bare-Metal Compute" width="100%" />
+</picture>
 
 <br />
 
-[![GitHub](https://img.shields.io/badge/GitHub-@CatoPaus-0D1117?style=for-the-badge&logo=github&logoColor=38BDF8&labelColor=090E17)](https://github.com/CatoPaus)
-[![Genkit](https://img.shields.io/badge/Focus-Firebase_Genkit_%26_Gemini-0D1117?style=for-the-badge&logo=google&logoColor=34D399&labelColor=090E17)](https://github.com/CatoPaus/genkit-turboquant-embedder)
-[![Antigravity](https://img.shields.io/badge/Compute-Antigravity_Agent_Mesh-0D1117?style=for-the-badge&logo=linux&logoColor=F59E0B&labelColor=090E17)](https://github.com/CatoPaus/Antigravity-Agent-Mesh)
-[![Zero Bloat](https://img.shields.io/badge/Philosophy-Zero_Bloat-0D1117?style=for-the-badge&logo=terminal&logoColor=A78BFA&labelColor=090E17)](https://github.com/CatoPaus/open-knowledge-studio)
+<a href="https://github.com/CatoPaus">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/GitHub-@CatoPaus-0D1117?style=for-the-badge&logo=github&logoColor=38BDF8&labelColor=090E17" />
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/GitHub-@CatoPaus-F8FAFC?style=for-the-badge&logo=github&logoColor=0284C7&labelColor=E2E8F0&color=0F172A" />
+    <img src="https://img.shields.io/badge/GitHub-@CatoPaus-F8FAFC?style=for-the-badge&logo=github&logoColor=0284C7&labelColor=E2E8F0&color=0F172A" alt="GitHub @CatoPaus" />
+  </picture>
+</a>
+<a href="https://github.com/CatoPaus/genkit-turboquant-embedder">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Stack-Genkit_%26_Gemini-0D1117?style=for-the-badge&logo=google&logoColor=34D399&labelColor=090E17" />
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Stack-Genkit_%26_Gemini-F8FAFC?style=for-the-badge&logo=google&logoColor=059669&labelColor=E2E8F0&color=0F172A" />
+    <img src="https://img.shields.io/badge/Stack-Genkit_%26_Gemini-F8FAFC?style=for-the-badge&logo=google&logoColor=059669&labelColor=E2E8F0&color=0F172A" alt="Stack Genkit & Gemini" />
+  </picture>
+</a>
+<a href="https://github.com/CatoPaus/Antigravity-Agent-Mesh">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Mesh-4--Socket_Xeon-0D1117?style=for-the-badge&logo=linux&logoColor=F59E0B&labelColor=090E17" />
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Mesh-4--Socket_Xeon-F8FAFC?style=for-the-badge&logo=linux&logoColor=D97706&labelColor=E2E8F0&color=0F172A" />
+    <img src="https://img.shields.io/badge/Mesh-4--Socket_Xeon-F8FAFC?style=for-the-badge&logo=linux&logoColor=D97706&labelColor=E2E8F0&color=0F172A" alt="Mesh 4-Socket Xeon" />
+  </picture>
+</a>
+<a href="https://github.com/CatoPaus/open-knowledge-studio">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Mode-Zero_Bloat-0D1117?style=for-the-badge&logo=terminal&logoColor=A78BFA&labelColor=090E17" />
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Mode-Zero_Bloat-F8FAFC?style=for-the-badge&logo=terminal&logoColor=7C3AED&labelColor=E2E8F0&color=0F172A" />
+    <img src="https://img.shields.io/badge/Mode-Zero_Bloat-F8FAFC?style=for-the-badge&logo=terminal&logoColor=7C3AED&labelColor=E2E8F0&color=0F172A" alt="Mode Zero Bloat" />
+  </picture>
+</a>
 
 </div>
 
@@ -21,20 +49,36 @@
 
 <p align="center">
   <a href="https://github.com/CatoPaus/open-knowledge-studio">
-    <img src="./assets/card-oks.svg" width="48.5%" alt="open-knowledge-studio — Zero-dependency grounded research and knowledge graph engine" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/card-oks.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/card-oks-light.svg" />
+      <img src="./assets/card-oks-light.svg" width="48.5%" alt="open-knowledge-studio — Zero-dependency grounded research and knowledge graph engine" />
+    </picture>
   </a>
   &nbsp;
   <a href="https://github.com/CatoPaus/genkit-turboquant-embedder">
-    <img src="./assets/card-turboquant.svg" width="48.5%" alt="genkit-turboquant-embedder — Native C++ N-API 1-bit Polar Quantization for Genkit" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/card-turboquant.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/card-turboquant-light.svg" />
+      <img src="./assets/card-turboquant-light.svg" width="48.5%" alt="genkit-turboquant-embedder — Native C++ N-API 1-bit Polar Quantization for Genkit" />
+    </picture>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/CatoPaus/antigravity-db-inspector">
-    <img src="./assets/card-db-inspector.svg" width="48.5%" alt="antigravity-db-inspector — Zero-dependency SQLite and Protobuf diagnostic dashboard" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/card-db-inspector.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/card-db-inspector-light.svg" />
+      <img src="./assets/card-db-inspector-light.svg" width="48.5%" alt="antigravity-db-inspector — Zero-dependency SQLite and Protobuf diagnostic dashboard" />
+    </picture>
   </a>
   &nbsp;
   <a href="https://github.com/CatoPaus/Antigravity-Agent-Mesh">
-    <img src="./assets/card-agent-mesh.svg" width="48.5%" alt="Antigravity-Agent-Mesh — 4-socket Xeon bare-metal compute mesh for Antigravity 2.0" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/card-agent-mesh.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/card-agent-mesh-light.svg" />
+      <img src="./assets/card-agent-mesh-light.svg" width="48.5%" alt="Antigravity-Agent-Mesh — 4-socket Xeon bare-metal compute mesh for Antigravity 2.0" />
+    </picture>
   </a>
 </p>
 
@@ -54,7 +98,11 @@
 ### `03 //` Lab Architecture & Stack
 
 <div align="center">
-  <img src="./assets/stack-telemetry.svg" alt="Engineering Stack Telemetry Matrix" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-telemetry.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/stack-telemetry-light.svg" />
+    <img src="./assets/stack-telemetry-light.svg" alt="Engineering Stack Telemetry Matrix" width="100%" />
+  </picture>
 </div>
 
 ---

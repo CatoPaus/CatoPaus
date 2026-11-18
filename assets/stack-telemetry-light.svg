@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 215" width="860" height="215" role="img" aria-label="Engineering Stack Telemetry">
+  <defs>
+    <linearGradient id="bgStackLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+    <style>
+      .mono { font-family: ui-monospace, 'Cascadia Code', 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="860" height="215" rx="14" fill="url(#bgStackLight)" />
+  <rect x="0.75" y="0.75" width="858.5" height="213.5" rx="13.5" fill="none" stroke="#CBD5E1" stroke-width="1.5" />
+
+  <!-- Header Strip -->
+  <text x="26" y="30" class="mono" font-size="11" font-weight="600" fill="#475569" letter-spacing="1.2">LAB_MATRIX // CORE_CAPABILITIES</text>
+  <text x="834" y="30" text-anchor="end" class="mono" font-size="10.5" fill="#64748B">0-BLOAT PRINCIPLE</text>
+  <line x1="26" y1="44" x2="834" y2="44" stroke="#CBD5E1" stroke-width="1" />
+
+  <!-- Column 1: AI & Agent Runtimes -->
+  <g transform="translate(26, 66)">
+    <rect x="0" y="0" width="256" height="126" rx="10" fill="#FFFFFF" stroke="#CBD5E1" />
+    <circle cx="18" cy="22" r="4" fill="#0284C7" />
+    <text x="30" y="26" class="mono" font-size="11" font-weight="700" fill="#0284C7" letter-spacing="0.8">AI &amp; AGENT RUNTIMES</text>
+
+    <text x="18" y="52" class="sans" font-size="12.5" fill="#1E293B">• Firebase Genkit Middleware</text>
+    <text x="18" y="73" class="sans" font-size="12.5" fill="#1E293B">• Gemini Interactions API</text>
+    <text x="18" y="94" class="sans" font-size="12.5" fill="#1E293B">• Google Antigravity 2.0 / ACP</text>
+    <text x="18" y="115" class="sans" font-size="12.5" fill="#1E293B">• ICM · OKF v0.2 · A2UI v1.0</text>
+  </g>
+
+  <!-- Column 2: Languages & Native -->
+  <g transform="translate(302, 66)">
+    <rect x="0" y="0" width="256" height="126" rx="10" fill="#FFFFFF" stroke="#CBD5E1" />
+    <circle cx="18" cy="22" r="4" fill="#059669" />
+    <text x="30" y="26" class="mono" font-size="11" font-weight="700" fill="#059669" letter-spacing="0.8">LANGUAGES &amp; NATIVE</text>
+
+    <text x="18" y="52" class="sans" font-size="12.5" fill="#1E293B">• TypeScript &amp; Node.js (0-Dep)</text>
+    <text x="18" y="73" class="sans" font-size="12.5" fill="#1E293B">• C++ N-API / node-gyp Bindings</text>
+    <text x="18" y="94" class="sans" font-size="12.5" fill="#1E293B">• Python (Stdlib Diagnostics)</text>
+    <text x="18" y="115" class="sans" font-size="12.5" fill="#1E293B">• Bash / Linux System Tooling</text>
+  </g>
+
+  <!-- Column 3: Bare-Metal & Infra -->
+  <g transform="translate(578, 66)">
+    <rect x="0" y="0" width="256" height="126" rx="10" fill="#FFFFFF" stroke="#CBD5E1" />
+    <circle cx="18" cy="22" r="4" fill="#D97706" />
+    <text x="30" y="26" class="mono" font-size="11" font-weight="700" fill="#B45309" letter-spacing="0.8">INFRA &amp; DIAGNOSTICS</text>
+
+    <text x="18" y="52" class="sans" font-size="12.5" fill="#1E293B">• Dual-Socket NUMA &amp; cgroups</text>
+    <text x="18" y="73" class="sans" font-size="12.5" fill="#1E293B">• SQLite &amp; Protobuf Wire Tools</text>
+    <text x="18" y="94" class="sans" font-size="12.5" fill="#1E293B">• Git Worktree Orchestration</text>
+    <text x="18" y="115" class="sans" font-size="12.5" fill="#1E293B">• S5 Wake-on-LAN &amp; Local IoT</text>
+  </g>
+</svg>
