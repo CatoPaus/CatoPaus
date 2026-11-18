@@ -77,9 +77,9 @@
 
   <!-- Main Identity -->
   <g transform="translate(34, 96)">
-    <text x="0" y="0" class="sans" font-size="40" font-weight="800" fill="#0F172A" letter-spacing="-0.8">Cato Paus</text>
-    <text x="202" y="-2" class="mono" font-size="15" font-weight="600" fill="#0284C7" letter-spacing="0.5">@CatoPaus</text>
-    <rect x="294" y="-15" width="8" height="16" rx="1" fill="#0284C7" class="cursor" />
+    <text x="0" y="0" class="sans" font-size="36" font-weight="800" fill="#0F172A" letter-spacing="-0.7">Cato Paus Skrede</text>
+    <text x="316" y="-2" class="mono" font-size="14.5" font-weight="600" fill="#0284C7" letter-spacing="0.5">@CatoPaus</text>
+    <rect x="406" y="-15" width="8" height="16" rx="1" fill="#0284C7" class="cursor" />
 
     <text x="0" y="32" class="sans" font-size="15.5" font-weight="600" fill="#334155">
       AI Tooling Architect · Genkit &amp; Gemini Runtimes · Bare-Metal Compute Mesh

@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-banner.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-banner-light.svg" />
-  <img src="./assets/hero-banner-light.svg" alt="Cato Paus — AI Tooling Architect, Genkit &amp; Bare-Metal Compute" width="100%" />
+  <img src="./assets/hero-banner-light.svg" alt="Cato Paus Skrede (@CatoPaus) — AI Tooling Architect, Firebase Genkit &amp; Gemini Runtimes, Bare-Metal Compute" width="100%" />
 </picture>
 
 <br />
@@ -13,6 +13,13 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/GitHub-@CatoPaus-0D1117?style=for-the-badge&logo=github&logoColor=38BDF8&labelColor=090E17" />
     <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/GitHub-@CatoPaus-F8FAFC?style=for-the-badge&logo=github&logoColor=0284C7&labelColor=E2E8F0&color=0F172A" />
     <img src="https://img.shields.io/badge/GitHub-@CatoPaus-F8FAFC?style=for-the-badge&logo=github&logoColor=0284C7&labelColor=E2E8F0&color=0F172A" alt="GitHub @CatoPaus" />
+  </picture>
+</a>
+<a href="https://x.com/cato_paus">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/X-@cato__paus-0D1117?style=for-the-badge&logo=x&logoColor=F8FAFC&labelColor=090E17" />
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/X-@cato__paus-F8FAFC?style=for-the-badge&logo=x&logoColor=0F172A&labelColor=E2E8F0&color=0F172A" />
+    <img src="https://img.shields.io/badge/X-@cato__paus-F8FAFC?style=for-the-badge&logo=x&logoColor=0F172A&labelColor=E2E8F0&color=0F172A" alt="X @cato_paus" />
   </picture>
 </a>
 <a href="https://github.com/CatoPaus/genkit-turboquant-embedder">
@@ -29,19 +36,12 @@
     <img src="https://img.shields.io/badge/Mesh-4--Socket_Xeon-F8FAFC?style=for-the-badge&logo=linux&logoColor=D97706&labelColor=E2E8F0&color=0F172A" alt="Mesh 4-Socket Xeon" />
   </picture>
 </a>
-<a href="https://github.com/CatoPaus/open-knowledge-studio">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Mode-Zero_Bloat-0D1117?style=for-the-badge&logo=terminal&logoColor=A78BFA&labelColor=090E17" />
-    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Mode-Zero_Bloat-F8FAFC?style=for-the-badge&logo=terminal&logoColor=7C3AED&labelColor=E2E8F0&color=0F172A" />
-    <img src="https://img.shields.io/badge/Mode-Zero_Bloat-F8FAFC?style=for-the-badge&logo=terminal&logoColor=7C3AED&labelColor=E2E8F0&color=0F172A" alt="Mode Zero Bloat" />
-  </picture>
-</a>
 
 </div>
 
 > *"I have a cue light I can use to show you when I'm joking, if you like."* — TARS
 >
-> Building **high-leverage AI developer tooling**, **zero-dependency Genkit & Gemini pipelines**, and **bare-metal compute infrastructure** — keeping abstractions transparent, binaries close to the silicon, and runtime bloat at zero.
+> **Cato Paus Skrede** ([`@CatoPaus`](https://github.com/CatoPaus) · [X `@cato_paus`](https://x.com/cato_paus)) builds **high-leverage AI developer tooling**, **zero-dependency Firebase Genkit & Gemini pipelines** (`open-knowledge-studio`, `genkit-turboquant-embedder`), **Google Antigravity diagnostics** (`antigravity-db-inspector`), and **bare-metal NUMA compute infrastructure** (`Antigravity-Agent-Mesh`) — keeping abstractions transparent, binaries close to the silicon, and runtime bloat at zero.
 
 ---
 
