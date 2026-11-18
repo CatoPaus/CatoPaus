@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 195" width="420" height="195" role="img" aria-label="antigravity-db-inspector">
+  <defs>
+    <linearGradient id="bgDb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090E17" />
+      <stop offset="100%" stop-color="#111626" />
+    </linearGradient>
+    <radialGradient id="glowDb" cx="88%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0" />
+    </radialGradient>
+    <style>
+      .mono { font-family: ui-monospace, 'Cascadia Code', 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="420" height="195" rx="12" fill="url(#bgDb)" />
+  <rect width="420" height="195" rx="12" fill="url(#glowDb)" />
+  <rect x="0.75" y="0.75" width="418.5" height="193.5" rx="11.5" fill="none" stroke="#1E293B" stroke-width="1.5" />
+  <rect x="22" y="1" width="90" height="2" rx="1" fill="#A78BFA" />
+
+  <!-- Top Row -->
+  <text x="24" y="30" class="mono" font-size="10.5" fill="#A78BFA" letter-spacing="1.1">DIAGNOSTICS // SQLITE + PROTOBUF</text>
+  <g transform="translate(364, 17)" stroke="#A78BFA" stroke-width="1.5" fill="none" opacity="0.85">
+    <ellipse cx="12" cy="6" rx="10" ry="3.5" />
+    <path d="M 2 6 L 2 14 C 2 16 6.5 17.5 12 17.5 C 17.5 17.5 22 16 22 14 L 22 6" />
+    <path d="M 2 14 L 2 22 C 2 24 6.5 25.5 12 25.5 C 17.5 25.5 22 24 22 22 L 22 14" />
+  </g>
+
+  <!-- Title -->
+  <text x="24" y="60" class="sans" font-size="19" font-weight="700" fill="#F8FAFC">antigravity-db-inspector</text>
+
+  <!-- Description -->
+  <text x="24" y="86" class="sans" font-size="12.5" fill="#94A3B8">Lightweight local web dashboard for Google</text>
+  <text x="24" y="104" class="sans" font-size="12.5" fill="#94A3B8">Antigravity SQLite state — decodes binary</text>
+  <text x="24" y="122" class="sans" font-size="12.5" fill="#94A3B8">protobuf wire blobs &amp; prunes payload bloat safely.</text>
+
+  <!-- Footer Pills -->
+  <g transform="translate(24, 152)">
+    <rect x="0" y="0" width="76" height="22" rx="5" fill="#0F172A" stroke="#1E293B" />
+    <circle cx="12" cy="11" r="3" fill="#3572A5" />
+    <text x="22" y="14.5" class="mono" font-size="10.5" fill="#CBD5E1">Python</text>
+
+    <rect x="84" y="0" width="92" height="22" rx="5" fill="#0F172A" stroke="#1E293B" />
+    <text x="94" y="14.5" class="mono" font-size="10.5" fill="#34D399">0 pip deps</text>
+
+    <rect x="184" y="0" width="116" height="22" rx="5" fill="#0F172A" stroke="#1E293B" />
+    <text x="194" y="14.5" class="mono" font-size="10.5" fill="#A78BFA">1-Click Prune</text>
+
+    <text x="372" y="15.5" text-anchor="end" class="mono" font-size="14" font-weight="600" fill="#94A3B8">↗</text>
+  </g>
+</svg>

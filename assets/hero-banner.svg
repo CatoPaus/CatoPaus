@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 230" width="860" height="230" role="img" aria-label="Cato Paus — Bare-Metal AI Systems and Genkit Tooling">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B12" />
+      <stop offset="55%" stop-color="#0C1320" />
+      <stop offset="100%" stop-color="#08101A" />
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
+      <stop offset="25%" stop-color="#38BDF8" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#34D399" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="glowLeft" cx="18%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowRight" cx="85%" cy="72%" r="45%">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.55" />
+    </pattern>
+    <style>
+      .mono { font-family: ui-monospace, 'Cascadia Code', 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.32; }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes sweep {
+        0% { transform: translateX(-180px); opacity: 0; }
+        20% { opacity: 0.55; }
+        80% { opacity: 0.55; }
+        100% { transform: translateX(860px); opacity: 0; }
+      }
+      .led { animation: pulse 2.4s ease-in-out infinite; }
+      .cursor { animation: blink 1.1s steps(1, end) infinite; }
+      .scan { animation: sweep 7s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Chassis Background -->
+  <rect width="860" height="230" rx="14" fill="url(#bgGrad)" />
+  <rect width="860" height="230" rx="14" fill="url(#grid)" />
+  <rect width="860" height="230" rx="14" fill="url(#glowLeft)" />
+  <rect width="860" height="230" rx="14" fill="url(#glowRight)" />
+  <rect x="0.75" y="0.75" width="858.5" height="228.5" rx="13.5" fill="none" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Subtle Horizontal Scan Highlight -->
+  <rect class="scan" x="0" y="1" width="160" height="1.5" fill="#38BDF8" opacity="0.45" />
+
+  <!-- Corner Rack Brackets -->
+  <g stroke="#38BDF8" stroke-width="1.5" fill="none" opacity="0.75">
+    <path d="M 14 26 L 14 14 L 26 14" />
+    <path d="M 834 14 L 846 14 L 846 26" />
+    <path d="M 14 204 L 14 216 L 26 216" />
+    <path d="M 834 216 L 846 216 L 846 204" />
+  </g>
+
+  <!-- Top Telemetry Bar -->
+  <g transform="translate(34, 30)">
+    <circle cx="6" cy="6" r="4" fill="#34D399" class="led" />
+    <circle cx="6" cy="6" r="7.5" fill="#34D399" opacity="0.16" class="led" />
+    <text x="20" y="10" class="mono" font-size="11" fill="#94A3B8" letter-spacing="1.4">NODE // GITHUB.COM/CATOPAUS</text>
+
+    <g transform="translate(534, -4)">
+      <rect x="0" y="0" width="258" height="22" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+      <text x="129" y="14.5" text-anchor="middle" class="mono" font-size="10.5" fill="#38BDF8" letter-spacing="0.8">TARS_SETTINGS :: ZERO-BLOAT 100%</text>
+    </g>
+  </g>
+
+  <!-- Main Identity -->
+  <g transform="translate(34, 96)">
+    <text x="0" y="0" class="sans" font-size="40" font-weight="800" fill="#F8FAFC" letter-spacing="-0.8">Cato Paus</text>
+    <text x="202" y="-2" class="mono" font-size="15" font-weight="600" fill="#38BDF8" letter-spacing="0.5">@CatoPaus</text>
+    <rect x="294" y="-15" width="8" height="16" rx="1" fill="#38BDF8" class="cursor" />
+
+    <text x="0" y="32" class="sans" font-size="15.5" font-weight="500" fill="#CBD5E1">
+      AI Tooling Architect · Genkit &amp; Gemini Runtimes · Bare-Metal Compute Mesh
+    </text>
+    <text x="0" y="55" class="mono" font-size="12" fill="#64748B">
+      &gt; Building zero-dependency agent pipelines, native C++ quantization bridges &amp; NUMA clusters.
+    </text>
+  </g>
+
+  <!-- Divider Line -->
+  <rect x="34" y="172" width="792" height="1.5" fill="url(#accentLine)" />
+
+  <!-- Bottom Hardware Telemetry Strip -->
+  <g transform="translate(34, 198)">
+    <g>
+      <rect x="0" y="-13" width="168" height="22" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="13" cy="-2" r="2.8" fill="#38BDF8" />
+      <text x="24" y="2" class="mono" font-size="10.5" fill="#CBD5E1">GENKIT · GEMINI 4</text>
+    </g>
+    <g transform="translate(180, 0)">
+      <rect x="0" y="-13" width="176" height="22" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="13" cy="-2" r="2.8" fill="#34D399" />
+      <text x="24" y="2" class="mono" font-size="10.5" fill="#CBD5E1">TS · PYTHON · C++ N-API</text>
+    </g>
+    <g transform="translate(368, 0)">
+      <rect x="0" y="-13" width="214" height="22" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="13" cy="-2" r="2.8" fill="#F59E0B" />
+      <text x="24" y="2" class="mono" font-size="10.5" fill="#CBD5E1">4-SOCKET XEON // 192 GB ECC</text>
+    </g>
+    <g transform="translate(594, 0)">
+      <rect x="0" y="-13" width="198" height="22" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="13" cy="-2" r="2.8" fill="#A78BFA" />
+      <text x="24" y="2" class="mono" font-size="10.5" fill="#CBD5E1">LOC // PLANET OF THE APES</text>
+    </g>
+  </g>
+</svg>
