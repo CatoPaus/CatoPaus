@@ -41,7 +41,7 @@
 
 > *"I have a cue light I can use to show you when I'm joking, if you like."* — TARS
 >
-> **Cato Paus Skrede** ([`@CatoPaus`](https://github.com/CatoPaus) · [X `@cato_paus`](https://x.com/cato_paus)) builds **high-leverage AI developer tooling**, **zero-dependency Firebase Genkit & Gemini pipelines** (`open-knowledge-studio`, `genkit-turboquant-embedder`), **Google Antigravity diagnostics** (`antigravity-db-inspector`), and **bare-metal NUMA compute infrastructure** (`Antigravity-Agent-Mesh`) — keeping abstractions transparent, binaries close to the silicon, and runtime bloat at zero.
+> **Cato Paus Skrede** ([`catopaus.github.io`](https://catopaus.github.io/) · [`@CatoPaus`](https://github.com/CatoPaus) · [X `@cato_paus`](https://x.com/cato_paus)) builds **high-leverage AI developer tooling**, **zero-dependency Firebase Genkit & Gemini pipelines** (`open-knowledge-studio`, `genkit-turboquant-embedder`), **Google Antigravity diagnostics** (`antigravity-db-inspector`), and **bare-metal NUMA compute infrastructure** (`Antigravity-Agent-Mesh`) — keeping abstractions transparent, binaries close to the silicon, and runtime bloat at zero.
 
 ---
 
@@ -117,5 +117,5 @@
 </details>
 
 <div align="center">
-  <sub><code>EOF //</code> Built in the lab · <a href="https://github.com/CatoPaus?tab=repositories">Browse all repositories ↗</a></sub>
+  <sub><code>EOF //</code> Built in the lab · <a href="https://catopaus.github.io/">catopaus.github.io ↗</a> · <a href="https://github.com/CatoPaus?tab=repositories">Browse all repositories ↗</a></sub>
 </div>
