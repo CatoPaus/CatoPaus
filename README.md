@@ -3,16 +3,16 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-banner.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-banner-light.svg" />
-  <img src="./assets/hero-banner-light.svg" alt="Cato Paus Skrede (@CatoPaus) — AI Tooling Architect, Firebase Genkit &amp; Gemini Runtimes, Bare-Metal Compute" width="100%" />
+  <img src="./assets/hero-banner-light.svg" alt="Cato Paus Skrede (@CatoPaus) — Independent Programmer, AI &amp; Systems Lab, Bare-Metal Compute" width="100%" />
 </picture>
 
 <br />
 
-<a href="https://github.com/CatoPaus">
+<a href="https://catopaus.github.io/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/GitHub-@CatoPaus-0D1117?style=for-the-badge&logo=github&logoColor=38BDF8&labelColor=090E17" />
-    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/GitHub-@CatoPaus-F8FAFC?style=for-the-badge&logo=github&logoColor=0284C7&labelColor=E2E8F0&color=0F172A" />
-    <img src="https://img.shields.io/badge/GitHub-@CatoPaus-F8FAFC?style=for-the-badge&logo=github&logoColor=0284C7&labelColor=E2E8F0&color=0F172A" alt="GitHub @CatoPaus" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Lab_Site-catopaus.github.io-0D1117?style=for-the-badge&logo=googlechrome&logoColor=38BDF8&labelColor=090E17" />
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Lab_Site-catopaus.github.io-F8FAFC?style=for-the-badge&logo=googlechrome&logoColor=0284C7&labelColor=E2E8F0&color=0F172A" />
+    <img src="https://img.shields.io/badge/Lab_Site-catopaus.github.io-F8FAFC?style=for-the-badge&logo=googlechrome&logoColor=0284C7&labelColor=E2E8F0&color=0F172A" alt="Personal Site catopaus.github.io" />
   </picture>
 </a>
 <a href="https://x.com/cato_paus">
@@ -41,11 +41,11 @@
 
 > *"I have a cue light I can use to show you when I'm joking, if you like."* — TARS
 >
-> **Cato Paus Skrede** ([`catopaus.github.io`](https://catopaus.github.io/) · [`@CatoPaus`](https://github.com/CatoPaus) · [X `@cato_paus`](https://x.com/cato_paus)) builds **high-leverage AI developer tooling**, **zero-dependency Firebase Genkit & Gemini pipelines** (`open-knowledge-studio`, `genkit-turboquant-embedder`), **Google Antigravity diagnostics** (`antigravity-db-inspector`), and **bare-metal NUMA compute infrastructure** (`Antigravity-Agent-Mesh`) — keeping abstractions transparent, binaries close to the silicon, and runtime bloat at zero.
+> **Cato Paus Skrede** ([`catopaus.github.io`](https://catopaus.github.io/) · [`@CatoPaus`](https://github.com/CatoPaus) · [X `@cato_paus`](https://x.com/cato_paus)) is an **independent programmer and systems builder** exploring new AI technologies, native C++ performance, and bare-metal home servers—keeping abstractions transparent, binaries close to the silicon, and runtime bloat at zero.
 
 ---
 
-### `01 //` Featured Genkit & AI Tooling
+### `01 //` Featured Projects (In Plain English & Under the Hood)
 
 <p align="center">
   <a href="https://github.com/CatoPaus/open-knowledge-studio">
@@ -65,14 +65,6 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/CatoPaus/antigravity-db-inspector">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/card-db-inspector.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="./assets/card-db-inspector-light.svg" />
-      <img src="./assets/card-db-inspector-light.svg" width="48.5%" alt="antigravity-db-inspector — Zero-dependency SQLite and Protobuf diagnostic dashboard" />
-    </picture>
-  </a>
-  &nbsp;
   <a href="https://github.com/CatoPaus/Antigravity-Agent-Mesh">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/card-agent-mesh.svg" />
@@ -82,6 +74,10 @@
   </a>
 </p>
 
+- [**`open-knowledge-studio`**](https://github.com/CatoPaus/open-knowledge-studio) *(TypeScript · 0 runtime deps)* — Turns sprawling AI research into organized, fact-checked knowledge graphs and interactive offline workspaces stored cleanly on disk (`ICM`, `OKF v0.2`, `A2UI v1.0`, Google AI Interactions API + Gemini 4 Argon).
+- [**`genkit-turboquant-embedder`**](https://github.com/CatoPaus/genkit-turboquant-embedder) *(TypeScript · C++ N-API)* — Shrinks bulky AI search vectors by **96.8%** using native C++ 1-bit Polar Quantization so large knowledge bases fit in a fraction of the RAM while staying Next.js Turbopack compatible.
+- [**`Antigravity-Agent-Mesh`**](https://github.com/CatoPaus/Antigravity-Agent-Mesh) *(Shell · Linux)* — Wires two used Dell Precision T7610 dual-Xeon workstations into a **4-socket, 64-thread, 192 GB ECC** home compute mesh that sleeps until needed, wakes via S5 Wake-on-LAN, and reports status through *Interstellar*-inspired **TARS & CASE** voices.
+
 ---
 
 ### `02 //` Ecosystem & Sidecar Utilities
@@ -89,9 +85,9 @@
 | Repository | Stack | Purpose |
 | :--- | :--- | :--- |
 | [**`antigravity.google`**](https://github.com/CatoPaus/antigravity.google) | `Shell` · `Ubuntu / Debian` | Portable version checker & automated updater for the Google Antigravity 2.0 suite (`Hub`, `IDE`, `CLI`). |
-| [**`genkit`**](https://github.com/CatoPaus/genkit) | `TypeScript` | Fork & experimentation sandbox for Google's open-source Genkit AI framework. |
+| [**`unifi-google-nest-hub`**](https://github.com/CatoPaus/unifi-google-nest-hub) | `Batch` · `WebRTC / IoT` | Streams UniFi Protect security cameras onto Google Nest Hub displays with sub-second latency. |
 | [**`node-banana-genkit`**](https://github.com/CatoPaus/node-banana-genkit) | `TypeScript` | Node-based visual workflow editor built around Genkit pipelines. |
-| [**`unifi-google-nest-hub`**](https://github.com/CatoPaus/unifi-google-nest-hub) | `Batch` · `IoT` | Local casting bridge for streaming UniFi cameras onto Google Nest Hub displays. |
+| [**`genkit`**](https://github.com/CatoPaus/genkit) | `TypeScript` | Fork & experimentation sandbox for Google's open-source Genkit AI framework. |
 
 ---
 
@@ -108,11 +104,11 @@
 ---
 
 <details>
-<summary><code>SYS_LOG //</code> How I Design AI &amp; Systems Software</summary>
+<summary><code>SYS_LOG //</code> Why I Build Software This Way</summary>
 
-- **Zero-Runtime-Dependency Bias:** Whether it is `open-knowledge-studio` in TypeScript or `antigravity-db-inspector` in Python, core tooling should run cleanly from the standard library without fragile dependency trees.
-- **File-Backed Epistemics:** Agent state belongs in inspectable artifacts on disk (`ICM`), not trapped inside opaque framework closures.
-- **Close to the Hardware:** From 1-bit Polar Quantization in C++ N-API (`genkit-turboquant-embedder`) to NUMA-pinned `systemd` slices across dual Xeon T7610s (`Antigravity-Agent-Mesh`), software works best when it respects memory layout and CPU topology.
+- **Zero-Runtime-Dependency Bias:** Core tooling like `open-knowledge-studio` runs cleanly on the TypeScript/Node.js standard library without fragile dependency trees.
+- **File-Backed Epistemics:** Agent state belongs in inspectable Markdown and JSON artifacts on disk (`ICM`), not trapped inside opaque framework closures.
+- **Close to the Hardware:** From 1-bit Polar Quantization in C++ N-API (`genkit-turboquant-embedder`) to NUMA-pinned `systemd` slices across dual Xeon T7610 workstations (`Antigravity-Agent-Mesh`), software is most fun when it respects memory layout and real silicon.
 
 </details>
 

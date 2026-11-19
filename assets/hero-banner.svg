@@ -82,10 +82,10 @@
     <rect x="406" y="-15" width="8" height="16" rx="1" fill="#38BDF8" class="cursor" />
 
     <text x="0" y="32" class="sans" font-size="15.5" font-weight="500" fill="#CBD5E1">
-      AI Tooling Architect · Genkit &amp; Gemini Runtimes · Bare-Metal Compute Mesh
+      Independent Programmer · AI &amp; Systems Lab · Bare-Metal Compute
     </text>
     <text x="0" y="55" class="mono" font-size="12" fill="#64748B">
-      &gt; Building zero-dependency agent pipelines, native C++ quantization bridges &amp; NUMA clusters.
+      &gt; Exploring Genkit, Gemini, C++ N-API &amp; dual-Xeon clusters — built for craft, zero bloat.
     </text>
   </g>
 

@@ -49,7 +49,7 @@
     <text x="30" y="26" class="mono" font-size="11" font-weight="700" fill="#F59E0B" letter-spacing="0.8">INFRA &amp; DIAGNOSTICS</text>
 
     <text x="18" y="52" class="sans" font-size="12.5" fill="#E2E8F0">• Dual-Socket NUMA &amp; cgroups</text>
-    <text x="18" y="73" class="sans" font-size="12.5" fill="#E2E8F0">• SQLite &amp; Protobuf Wire Tools</text>
+    <text x="18" y="73" class="sans" font-size="12.5" fill="#E2E8F0">• systemd &amp; Hardware Telemetry</text>
     <text x="18" y="94" class="sans" font-size="12.5" fill="#E2E8F0">• Git Worktree Orchestration</text>
     <text x="18" y="115" class="sans" font-size="12.5" fill="#E2E8F0">• S5 Wake-on-LAN &amp; Local IoT</text>
   </g>
