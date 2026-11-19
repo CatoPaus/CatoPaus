@@ -75,7 +75,7 @@
 </p>
 
 - [**`open-knowledge-studio`**](https://github.com/CatoPaus/open-knowledge-studio) *(TypeScript · 0 runtime deps)* — Turns sprawling AI research into organized, fact-checked knowledge graphs and interactive offline workspaces stored cleanly on disk (`ICM`, `OKF v0.2`, `A2UI v1.0`, Google AI Interactions API + Gemini 4 Argon).
-- [**`genkit-turboquant-embedder`**](https://github.com/CatoPaus/genkit-turboquant-embedder) *(TypeScript · C++ N-API)* — Shrinks bulky AI search vectors by **96.8%** using native C++ 1-bit Polar Quantization so large knowledge bases fit in a fraction of the RAM while staying Next.js Turbopack compatible.
+- [**`genkit-turboquant-embedder`**](https://github.com/CatoPaus/genkit-turboquant-embedder) *(TypeScript · C++ N-API · [Research Spec ↗](https://catopaus.github.io/turboquant/))* — Sends a **96-byte packed `Uint8Array` chunk** instead of ~15 KB of 64-bit float JSON (`number[]`), cutting **wire bandwidth by 99.37%**, **vector RAM by 96.88%** vs. Float32, and serialization power with ~114 ns native 64-bit POPCNT Hamming retrieval.
 - [**`Antigravity-Agent-Mesh`**](https://github.com/CatoPaus/Antigravity-Agent-Mesh) *(Shell · Linux)* — Wires two used Dell Precision T7610 dual-Xeon workstations into a **4-socket, 64-thread, 192 GB ECC** home compute mesh that sleeps until needed, wakes via S5 Wake-on-LAN, and reports status through *Interstellar*-inspired **TARS & CASE** voices.
 
 ---
